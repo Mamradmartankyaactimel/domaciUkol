@@ -18,14 +18,14 @@ def info():
 @app.route('/kvetaak/')
 def kvetak():
     title = 'Kvetaak'
-    return render_template('kvetaak.html.JPEG', title=title)
+    return render_template('kvetaak.html.j2', title=title)
 
 @app.route('/kapusta/')
 def kapusta():
     title = 'Kapusta'
-    return render_template('kapustak.html.JPEG', title=title)
+    return render_template('kapustak.html.j2', title=title)
 
 @app.route('/banaany/')
 def banany():
     title = 'Banaany'
-    return render_template('banaan.html.JPEG', title=title)
+    return render_template('banaan.html.j2', title=title)
